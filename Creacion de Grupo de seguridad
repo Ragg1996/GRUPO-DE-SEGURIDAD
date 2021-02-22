@@ -1,0 +1,12 @@
+Creación de un grupo de seguridad (Consola)
+Inicie sesión en la Consola de administración de AWS y abra la consola de Amazon EC2 en https://console.aws.amazon.com/ec2/.
+
+En el panel de navegación, elija Security Groups (Grupos de seguridad).
+
+Elija Create Security Group.
+
+En Detalles básicos, escriba un nombre descriptivo y una breve descripción para el grupo de seguridad. El nombre y la descripción pueden tener hasta 255 caracteres y pueden incluir a-z, A-Z, 0-9, spaces and ._-:/()#,@[]+=&{}!$*. Para de la VPC, elija la VPC en la que desea crear el grupo de seguridad. El grupo de seguridad solo se puede utilizar en la VPC en la que se crea.
+
+Puede agregar reglas de grupo de seguridad ahora o puede agregarlas en cualquier momento después de haber creado el grupo de seguridad. Para obtener más información sobre la modificación de reglas de grupo de seguridad, consulte Agregar reglas a un grupo de seguridad.
+
+Seleccione Create (Crear).
